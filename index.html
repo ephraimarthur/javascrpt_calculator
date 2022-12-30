@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Calculator</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+<div class="container">
+
+ <div class="display">
+   <input type="text"  id="display" readonly>
+ </div>
+
+
+<!-- KEYS -->
+<div class="keys">
+  <button type="button" onclick="c(' ')">MRC</button>
+  <button type="button" onclick="math('+/-')" >+/-</button>
+  <button type="button" onclick="math('%')" >%</button>
+  <button type="button" onclick="math('/')" >/</button>
+
+
+<!-- MAIN KEYS -->
+<button type="button" onclick="math('7')">7</button>
+<button type="button" onclick="math('8')">8</button>
+<button type="button" onclick="math('9')">9</button>
+<button type="button" onclick="math('*')">X</button>
+
+
+<!-- MAIN KEYS -->
+<button type="button" onclick="math('4')">4</button>
+<button type="button" onclick="math('5')">5</button>
+<button type="button" onclick="math('6')">6</button>
+<button type="button" onclick="math('-')">-</button>
+
+<!-- MAIN KEYS -->
+<button type="button" onclick="math('1')">1</button>
+<button type="button" onclick="math('2')">2</button>
+<button type="button" onclick="math('3')">3</button>
+<button type="button" onclick="math('+')">+</button>
+
+<!-- MAIN KEYS -->
+<button type="button" onclick="math('0')">0</button>
+<button type="button" onclick="math('.')">.</button>
+<button type="button" onclick="c(' ')">Clear</button>
+<button type="button" onclick="e()">=</button>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
